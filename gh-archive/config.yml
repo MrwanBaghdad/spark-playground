@@ -1,0 +1,9 @@
+data: 
+  src_path: data/
+  target_path: /tmp/github-facts
+  num_partitions: 10
+
+events:
+  - ReleaseEvent
+  - PushEvent
+  - WatchEvent
